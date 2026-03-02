@@ -11,7 +11,7 @@ while True:
     gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
     inverted =cv2.bitwise_not(frame)
 
-    cv2.imshow('Aseel <3 ', frame )
+    cv2.imshow('Camera', frame )
     cv2.imshow('Gray', gray )
     cv2.imshow('Inverted Colors', inverted )
 
@@ -21,3 +21,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
